@@ -15,11 +15,13 @@ function aHref(s){
     window.location.href=s;
 }   //为了最佳的视觉体验，请使用onclick="aHref('https://example')"以代替href属性。
 
+/*//这一部分不需要
 $(document).ready(function(){
     $("#flip").click(function(){
         $("#panel").slideToggle("slow");
     });
 });    //jQuery滑动模块，使用前请先自行添加jQuery的script标签
+*/
 
 function adjustIframe(){
     var ifm= document.getElementById("bi_iframe");
